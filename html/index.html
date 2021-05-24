@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="../js/script.js" defer></script>
+  </head>
+  <span class="selected hide" id="selectedItem"
+    ><p></p>
+    <img src="../assets/remove.svg" class="cancel" onclick="removeItem(this)"
+  /></span>
+  <body>
+    <div class="dropdown__container">
+      <div class="dropdown">
+        <div class="selected__container" id="dropdown">
+          <input type="text" name="search" placeholder="search.." />
+        </div>
+        <div class="dropdown__icon">
+          <img src="../assets/down-arrow.svg" alt="" />
+        </div>
+      </div>
+      <div class="options"></div>
+      <div class="result" id="result">Oops! no match found</div>
+    </div>
+    <div class="box"></div>
+  </body>
+</html>

@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+*::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+*::-webkit-scrollbar-track {
+  background: snow;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: slateblue;
+}
+
+.dropdown__container {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown {
+  min-height: 5vh;
+  min-width: 20vw;
+  max-width: 20vw;
+  border: 1px solid #867ae9;
+  border-bottom: snow;
+  padding: 0.5rem;
+  display: flex;
+}
+
+.selected__container {
+  flex: 0.9;
+  display: flex;
+  flex-wrap: wrap;
+}
+.dropdown__icon {
+  flex: 0.1;
+  display: flex;
+  align-items: center;
+}
+.options {
+  max-height: 25vh;
+  width: inherit;
+  border: 1px solid slateblue;
+  border-top: snow;
+  overflow-y: scroll;
+  padding: 0.25rem;
+  font-size: 0.9rem;
+}
+.option,
+.result {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+}
+.result {
+  border: 1px solid slateblue;
+  border-top: snow;
+}
+.option:hover {
+  background-color: lightblue;
+}
+input[name="search"] {
+  height: 5vh;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 0.3rem;
+}
+span.selected {
+  background-color: slategray;
+  color: aliceblue;
+  padding: 0.2rem;
+  display: flex;
+  align-items: center;
+  margin: 0.15rem 0.15rem;
+  font-size: 0.75rem;
+}
+
+span.selected > p {
+  margin: 0rem 0.4rem;
+}
+img.cancel {
+  height: 2vh;
+  width: 2vh;
+  margin-right: 0.4rem;
+}
+span.hide {
+  display: none;
+}
+.hide {
+  display: none;
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "hindi",
+    "id": "hi",
+    "pos": 1
+  },
+  {
+    "name": "english",
+    "id": "eng",
+    "pos": 2
+  },
+  {
+    "name": "spanish",
+    "id": "esp",
+    "pos": 3
+  },
+  {
+    "name": "japanese",
+    "id": "jpn",
+    "pos": 4
+  },
+  {
+    "name": "russian",
+    "id": "rus",
+    "pos": 5
+  },
+  {
+    "name": "tamil",
+    "id": "tam",
+    "pos": 6
+  },
+  {
+    "name": "telugu",
+    "id": "tel",
+    "pos": 7
+  }
+]
